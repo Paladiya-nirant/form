@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+
+        form{
+            width: 1100px;
+            height: 900px;
+            background-color: antiquewhite;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .gen{
+            padding-left: 100px;
+        }
+
+        .male{
+            margin-left: 10px;
+        }
+
+        .lname{
+            padding-left: 50px;
+        }
+
+        .Contact{
+            padding-left: 90px;
+        }
+
+        .hobbies{
+            padding-left: 120px;
+        }
+
+        .Nationlity{
+            padding-left: 70px;
+        }
+
+        .Contact{
+            padding-left: 90px;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    
+    <form onsubmit="return submit()">
+
+        <label>First Name</label>
+        <input type="text" name="fname" id="fname" class="col-4" placeholder="First Name">
+
+        <label class="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" class="col-4" placeholder="Last Name">
+
+        <br>
+        <br>
+
+        <label>Email</label>
+        <input type="text" name="email" id="email" class="col-4" placeholder="Email">
+
+        <label class="Contact">Contact</label>
+        <input type="text" name="contact" id="contact" class="col-4" >
+
+        <br>
+        <br>
+
+        <label>Age</label>
+        <input type="text" name="age" id="age" class="col-4">
+
+        <label class="gen">Gender</label>
+            <input type="radio" name="gender" id="gender" class="male">Male
+            <input type="radio" name="gender" id="gender">Female
+
+        <br>
+        <br>
+
+        <label>Date Of Birth</label>
+        <input type="text" name="dob" id="dob" class="col-3">
+
+        <label class="hobbies">Hobbies</label>
+        <input  type="text" name="hobby" id="hobby" class="col-4">
+
+        <br>
+        <br>
+
+        <label>Languages Known</label>
+        <input type="text" name="languages" id="languages" class="col-3">
+
+        <label class="Nationlity">Nationlity</label>
+        <input type="text" name="nationlity" id="nationlity" class="col-4">
+
+        <br>
+        <br>
+
+        <label>City</label>
+        <input type="text" name="city" id="city" class="col-4">
+
+        <label class="Contact">Contact</label>
+        <input type="text" name="contact" id="contact" class="col-4">
+
+        <br>
+        <br>
+
+        <label>Address</label>
+        <textarea rows = "5" cols = "50" name = "description" placeholder="address">
+         </textarea>
+
+        <br>
+        <br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+
+        function submit(){
+
+
+
+        }
+
+    </script>
+</body>
+</html>
